@@ -129,3 +129,9 @@ p{
       padding: 5px 1rem;
   }
 }
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
