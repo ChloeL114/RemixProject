@@ -37,10 +37,18 @@ h1 {
 
 /* Responsive Column */
 .rightcolumn {
+  float: left;
   border-style: solid;
   border-color: #DBEDFF;
-  border-width: 30px;
-  width: 100%;
+  border-left: 10px; 
+  width: 50%;
+  
+}
+.leftcolumn{
+
+  float: left;
+  width: 50%;
+
 }
 
 /* Card Layout */
@@ -49,7 +57,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   background-color: #A6CAEC; 
-  padding: 20px;
+  padding: 20px; padding-left: 10px;
   margin-top: 20px;
   gap: 20px;
 }
