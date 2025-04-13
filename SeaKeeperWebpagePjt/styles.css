@@ -79,16 +79,16 @@ h1 {
 
 /* Image in Circle */
 .circle-img {
-  width: 250px;
-  height: 250px;
+  width: 255px;
+  height: 255px;
   border-radius: 50%;
   overflow: hidden;
   flex-shrink: 0;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  
  
 }
 
-.circle-img img {
+.circle-img img {   
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -120,7 +120,34 @@ p{
   margin-bottom: 10px;
   display: inline-block;
 }
-
+footer{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #A6CAEC; 
+  padding: 20px; padding-left: 10px;
+  gap: 20px;
+}
+.link a {
+  display: flex;
+  flex-direction: row;
+  font-family: "Inter", sans-serif;
+  font-size: medium;
+  background-color: rgb(13, 44, 70);
+  color: rgb(255, 255, 255);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.link a:hover {
+    
+  color: rgb(51, 255, 0);
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
 /* Responsive Media Queries */
 @media screen and (max-width: 800px) {
   .card {
